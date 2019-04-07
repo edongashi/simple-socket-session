@@ -1,0 +1,25 @@
+{
+  "name": "simple-socket-session",
+  "version": "0.1.0",
+  "description": "Simple socket.io wrapper for stateful interactions.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "edongashi",
+  "license": "MIT",
+  "dependencies": {
+    "@types/console-stamp": "^0.2.32",
+    "console-stamp": "^0.2.7",
+    "socket.io": ">=2",
+    "socket.io-client": ">=2"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^2.1.2",
+    "@types/socket.io-client": "^1.4.32",
+    "typescript": ">=3"
+  }
+}
